@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "install ebook-thumbnailer..."
+
+# Install dependencies
+yes | pip install ebookmeta
+
+# Copy app files
+cp ./src/ebook.thumbnailer /usr/share/thumbnailers
+cp ./src/ebook-thumbnailer.py /usr/bin
+
+echo "completed..."
