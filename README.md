@@ -1,7 +1,7 @@
 ebook-thumbnailer
 =================
 
-Simple fb2 and epub thumbnauler for Nautilus.
+Simple fb2 and epub thumbnailer for Nautilus.
 
 How to install:
 
