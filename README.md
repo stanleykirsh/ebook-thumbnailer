@@ -13,7 +13,7 @@ How to install manually:
 2) Put ebook.thumbnailer to /usr/share/thumbnailers
 3) Put ebook-thumbnailer.py to /usr/bin
 
-don't forget to enable 'show miniatures on all devices' in nautilus
+Don't forget to enable 'show miniatures on all devices' in nautilus.
 
 How to test:
 
