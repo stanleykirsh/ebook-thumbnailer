@@ -5,7 +5,7 @@ Simple fb2 and epub thumbnailer for Nautilus.
 
 How to install:
 
-1) sudo sh install
+1) sudo ./install
 
 How to install manually:
 

@@ -15,10 +15,10 @@ outputFile = sys.argv[2]
 if len(sys.argv) > 3:
     size = int(sys.argv[3])
 else:
-    size = 256
+    size = 512
 
-file = urllib.url2pathname(inputFile).split('file://')[1]
-meta = ebookmeta.get_metadata(file)
+_file = urllib.url2pathname(inputFile).split('file://')[1]
+meta = ebookmeta.get_metadata(_file)
 
 # No cover inside
 if not meta.cover_image_data:
