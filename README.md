@@ -1,7 +1,7 @@
 ebook-thumbnailer
 =================
 
-Simple fb2 and epub thumbnailer for Nautilus.
+A simple FB2 and EPUB thumbnailer for Nautilus.
 
 How to install:
 
@@ -10,10 +10,12 @@ How to install:
 How to install manually:
 
 1) sudo pip install ebookmeta
-2) Put ebook.thumbnailer to /usr/share/thumbnailers
-3) Put ebook-thumbnailer.py to /usr/bin
+2) Place the ebook-thumbnailer file in the /usr/share/thumbnailers directory.
+Put ebook-thumbnailer.py in /usr/bin.
 
-Don't forget to enable 'show miniatures on all devices' in nautilus.
+Don't forget to enable "Show Miniatures on All Devices" in Nautilus.
+
+To work correctly with SAMBA drives, use the local path to which the SMB drive is mounted. For example: /mnt/nas.
 
 How to test:
 
